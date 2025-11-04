@@ -4,6 +4,7 @@
 int main()
 {
    float mass, velocity, kinetic_energy;
+   printf("========CALCULATION OF KINETIC ENERGY=========\n");
    printf("ENTER THE VALUE OF THE MASS AND THE VELOCITY : ");
 
    printf("\nMASS: ");
