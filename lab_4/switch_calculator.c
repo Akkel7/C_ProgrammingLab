@@ -6,6 +6,7 @@ int main()
 
     float numb1, numb2,add, subs, mul, div;
     int cas;
+    printf("============BASIC CALCULATOR==========");
     printf("\nEnter two numbers: ");
     printf("\nNUMBER 1: ");
     scanf("%f",&numb1);
@@ -54,4 +55,5 @@ int main()
     }
     return 0;
 }
+
 
