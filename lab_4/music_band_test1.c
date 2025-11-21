@@ -5,7 +5,8 @@ int main()
 {
     int band;
     char first_letter;
-    printf("Select a Band (1-5): ");
+    printf("========MUSIC BAND========");
+    printf("\n\nSelect a Band (1-5): ");
     scanf(" %d",&band);
     switch(band)
     {
@@ -143,3 +144,4 @@ default:
     }
     return 0;
 }
+
