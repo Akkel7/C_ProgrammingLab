@@ -12,14 +12,14 @@ int main()
 
         printf("TOTAL BILL =%.2f",total_bill);
     }
-    else if(unit_consumed>100 || unit_consumed<201){
+    else if(unit_consumed>100 && unit_consumed<201){
 
         total_bill = 2*unit_consumed;
 
         printf("TOTAL BILL =%.2f",total_bill);
     }
 
-    else if(unit_consumed>200 || unit_consumed<301){
+    else if(unit_consumed>200 && unit_consumed<301){
 
         total_bill = 3*unit_consumed;
 
@@ -34,3 +34,4 @@ int main()
     }
     return 0;
 }
+
